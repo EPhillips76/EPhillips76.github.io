@@ -1,3 +1,7 @@
+body {
+  padding-bottom: 10px;
+}
+
 section {
   background-color: rgb(91, 100, 238);
   padding-top: 10px;
@@ -10,7 +14,7 @@ section {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 50px 50px; 
+  grid-template-rows: 50px 50px 50px;
   gap: 10px;
   padding-top: 10px;
   padding-bottom: 30px;
@@ -23,22 +27,20 @@ section {
   border: 1px solid #000;
 }
 .flex-container {
-  margin-top: px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.flex-item {
+  margin-top: 10 px;
   outline: 1px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding-bottom: 10px;
-}
-.flex-item {
- margin-top: px;
-  outline: 1px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 10px;
   border: 1px solid #000;
-  
 }
