@@ -1,8 +1,13 @@
-body {
-  padding-bottom: 10px;
-}
+
+/* b {
+  margin-top: 500px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+} */
 
 section {
+  margin: top 50px;
   background-color: rgb(91, 100, 238);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -44,3 +49,5 @@ section {
   padding-bottom: 10px;
   border: 1px solid #000;
 }
+
+
