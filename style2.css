@@ -1,11 +1,34 @@
 
-/* b {
-  margin-top: 500px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-} */
+.title 
+{
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(173, 173, 173);
+  text-align: center;
+}
+.me 
+{
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(173, 173, 173);
+  
+}
 
+.contact {
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(173, 173, 173);
+}
+.technologies {
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(173, 173, 173);
+}
+.skills {
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(173, 173, 173);
+}
 section {
   margin: top 50px;
   background-color: rgb(91, 100, 238);
